@@ -89,4 +89,17 @@ Windows.
 
 =back
 
+=head1 SUPPORT FOR OLDER PERL VERSIONS
+
+This module requires Perl v5.20 or later.
+
+Future releases may only support Perl versions released in the last ten (10) years.
+
+=head1 append:BUGS
+
+=head2 Reporting Security Vulnerabilities
+
+Security issues should not be reported on the bugtracker website. Please see F<SECURITY.md> for instructions how to
+report security vulnerabilities
+
 =cut

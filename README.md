@@ -60,6 +60,12 @@ The `$options` are optional.
     This is a pure-Perl module that reads data from `/dev/urandom`. It also uses [Win32::API](https://metacpan.org/pod/Win32%3A%3AAPI) to read random bytes on
     Windows.
 
+# SUPPORT FOR OLDER PERL VERSIONS
+
+This module requires Perl v5.20 or later.
+
+Future releases may only support Perl versions released in the last ten (10) years.
+
 # SOURCE
 
 The development version is on github at [https://github.com/robrwo/perl-Sys-GetRandom-FFI](https://github.com/robrwo/perl-Sys-GetRandom-FFI)
@@ -73,6 +79,11 @@ Please report any bugs or feature requests on the bugtracker website
 When submitting a bug or request, please include a test-file or a
 patch to an existing test-file that illustrates the bug or desired
 feature.
+
+## Reporting Security Vulnerabilities
+
+Security issues should not be reported on the bugtracker website. Please see `SECURITY.md` for instructions how to
+report security vulnerabilities
 
 # AUTHOR
 
