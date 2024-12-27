@@ -1,6 +1,8 @@
 Release history for {{ $dist->name }}:
 
 {{$NEXT}}
+  [Documentation]
+  - Updated SEE ALSO.
 
 v0.1.0    2024-12-27 00:53:51+00:00 Europe/London
   - Initial version.

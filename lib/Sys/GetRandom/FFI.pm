@@ -78,6 +78,10 @@ sub getrandom( $size, $opts = 0 ) {
 
 This is an XS module that calls L<getrandom(2)> directly.  It has a slightly different interface but is faster.
 
+=item L<Sys::GetRandom::PP>
+
+This is a pure-Perl module that makes syscalls to L<getrandom(2)>.
+
 =item L<Rand::URandom>
 
 This is a pure-Perl module that makes syscalls to L<getrandom(2)>, but falls back to reading from F</dev/urandom>.

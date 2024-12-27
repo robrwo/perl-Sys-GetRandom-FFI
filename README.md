@@ -51,6 +51,10 @@ The `$options` are optional.
 
     This is an XS module that calls [getrandom(2)](http://man.he.net/man2/getrandom) directly.  It has a slightly different interface but is faster.
 
+- [Sys::GetRandom::PP](https://metacpan.org/pod/Sys%3A%3AGetRandom%3A%3APP)
+
+    This is a pure-Perl module that makes syscalls to [getrandom(2)](http://man.he.net/man2/getrandom).
+
 - [Rand::URandom](https://metacpan.org/pod/Rand%3A%3AURandom)
 
     This is a pure-Perl module that makes syscalls to [getrandom(2)](http://man.he.net/man2/getrandom), but falls back to reading from `/dev/urandom`.
