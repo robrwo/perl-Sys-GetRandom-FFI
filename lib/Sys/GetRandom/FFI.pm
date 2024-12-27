@@ -15,6 +15,8 @@ use constant GRND_RANDOM   => 0x0002;
 
 our @EXPORT_OK = qw( GRND_RANDOM GRND_NONBLOCK getrandom );
 
+our $VERSION = 'v0.1.0';
+
 =head1 SYNOPSIS
 
   use Sys::GetRandom::FFI qw( getrandom GRND_RANDOM GRND_NONBLOCK );
