@@ -91,6 +91,10 @@ This is a pure-Perl module that makes syscalls to L<getrandom(2)>, but falls bac
 This is a pure-Perl module that reads data from F</dev/urandom>. It also uses L<Win32::API> to read random bytes on
 Windows.
 
+=item L<Random::Simple>
+
+This is another module that reads data from F</dev/urandom> or calls L<getrandom(2)>.
+
 =back
 
 =head1 SUPPORT FOR OLDER PERL VERSIONS

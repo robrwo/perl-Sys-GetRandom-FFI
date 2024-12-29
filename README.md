@@ -64,6 +64,10 @@ This will exit with `undef` when there are no random bytes available.
     This is a pure-Perl module that reads data from `/dev/urandom`. It also uses [Win32::API](https://metacpan.org/pod/Win32%3A%3AAPI) to read random bytes on
     Windows.
 
+- [Random::Simple](https://metacpan.org/pod/Random%3A%3ASimple)
+
+    This is another module that reads data from `/dev/urandom` or calls [getrandom(2)](http://man.he.net/man2/getrandom).
+
 # SUPPORT FOR OLDER PERL VERSIONS
 
 This module requires Perl v5.20 or later.
