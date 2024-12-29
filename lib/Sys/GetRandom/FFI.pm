@@ -30,14 +30,6 @@ our $VERSION = 'v0.1.1';
 
 This is a proof-of-concept module for calling the L<getrandom(2)> system function via L<FFI::Platypus>.
 
-=export GRND_RANDOM
-
-When this bit is set, it will read from F</dev/random> instead of F</dev/urandom>.
-
-=export GRND_NONBLOCK
-
-This will exit with C<undef> when there are no random bytes available.
-
 =export getrandom
 
   my $bytes = getrandom( $size, $options );
@@ -48,6 +40,14 @@ It may return less than C<$size> bytes if L</GRND_RANDOM> was given as an option
 entropy pool has not been initialised, or if it was interrupted by a signal when C<$size> is over 256.
 
 The C<$options> are optional.
+
+=export GRND_RANDOM
+
+When this bit is set, it will read from F</dev/random> instead of F</dev/urandom>.
+
+=export GRND_NONBLOCK
+
+This will exit with C<undef> when there are no random bytes available.
 
 =cut
 

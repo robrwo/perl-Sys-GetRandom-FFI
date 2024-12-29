@@ -23,14 +23,6 @@ This is a proof-of-concept module for calling the [getrandom(2)](http://man.he.n
 
 # EXPORTS
 
-## GRND\_RANDOM
-
-When this bit is set, it will read from `/dev/random` instead of `/dev/urandom`.
-
-## GRND\_NONBLOCK
-
-This will exit with `undef` when there are no random bytes available.
-
 ## getrandom
 
 ```perl
@@ -43,6 +35,14 @@ It may return less than `$size` bytes if ["GRND\_RANDOM"](#grnd_random) was give
 entropy pool has not been initialised, or if it was interrupted by a signal when `$size` is over 256.
 
 The `$options` are optional.
+
+## GRND\_RANDOM
+
+When this bit is set, it will read from `/dev/random` instead of `/dev/urandom`.
+
+## GRND\_NONBLOCK
+
+This will exit with `undef` when there are no random bytes available.
 
 # SEE ALSO
 
