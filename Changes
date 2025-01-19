@@ -1,6 +1,8 @@
 Release history for {{ $dist->name }}:
 
 {{$NEXT}}
+  [Documentation]
+  - Updated SEE ALSO to remove Random::Simple (not intended for crypto) and add Crypt::SysRandom
 
 v0.1.1    2024-12-29 17:13:01+00:00 Europe/London
   [Documentation]
