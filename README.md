@@ -99,7 +99,7 @@ Robert Rothenberg <rrwo@cpan.org>
 
 # COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2024 by Robert Rothenberg <rrwo@cpan.org>.
+This software is Copyright (c) 2024-2025 by Robert Rothenberg <rrwo@cpan.org>.
 
 This is free software, licensed under:
 
