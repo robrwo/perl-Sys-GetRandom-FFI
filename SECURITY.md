@@ -1,19 +1,23 @@
-This is the Security Policy for the Perl distribution Sys-GetRandom-FFI.
+# Security Policy for the Sys-GetRandom-FFI distribution.
 
-The latest version of this Security Policy can be found at
-https://metacpan.org/dist/Sys-GetRandom-FFI.
+Report issues via email at: Robert Rothenberg <rrwo@cpan.org>.
+
+
+This is the Security Policy for Sys-GetRandom-FFI.
 
 This text is based on the CPAN Security Group's Guidelines for Adding
-a Security Policy to Perl Distributions (version 0.1.8).
+a Security Policy to Perl Distributions (version 1.0.0)
 https://security.metacpan.org/docs/guides/security-policy-for-authors.html
 
 # How to Report a Security Vulnerability
 
-Security vulnerabilties can be reported by e-mail to the current
-project maintainer(s) at <rrwo@cpan.org>.
+Security vulnerabilities can be reported by e-mail to the current
+project maintainers at Robert Rothenberg <rrwo@cpan.org>.
 
 Please include as many details as possible, including code samples
-or test cases, so that we can reproduce the issue.
+or test cases, so that we can reproduce the issue.  Check that your
+report does not expose any sensitive data, such as passwords,
+tokens, or personal information.
 
 If you would like any help with triaging the issue, or if the issue
 is being actively exploited, please copy the report to the CPAN
@@ -36,7 +40,7 @@ on the CPANSec website.
 The maintainer(s) aim to acknowledge your security report as soon as
 possible.  However, this project is maintained by a single person in
 their spare time, and they cannot guarantee a rapid response.  If you
-have not received a response from the them within a week, then
+have not received a response from them within one week, then
 please send a reminder to them and copy the report to CPANSec at
 <cpan-security@security.metacpan.org>.
 
@@ -51,37 +55,39 @@ modules or downstream software that uses this software.
 
 They may also forward this issue to CPANSec.
 
-# What Software this Policy Applies to
+# Which Software This Policy Applies To
 
-Any security vulnerabilities in Sys-GetRandom-FFI are covered
-by this policy.
+Any security vulnerabilities in Sys-GetRandom-FFI are covered by this policy.
 
 Security vulnerabilities are considered anything that allows users
 to execute unauthorised code, access unauthorised resources, or to
 have an adverse impact on accessibility or performance of a system.
 
 Security vulnerabilities in upstream software (embedded libraries,
-prerequisite modules or system libraries, or in Perl), are not covered
-by this policy unless they affect Sys-GetRandom-FFI, or
-Sys-GetRandom-FFI can be used to exploit vulnerabilities in
-them.
+prerequisite modules or system libraries, or in Perl), are not
+covered by this policy unless they affect Sys-GetRandom-FFI, or Sys-GetRandom-FFI can
+be used to exploit vulnerabilities in them.
 
 Security vulnerabilities in downstream software (any software that
-uses Sys-GetRandom-FFI, or plugins to it that are not included
-with the Sys-GetRandom-FFI distribution) are not covered by
-this policy.
+uses Sys-GetRandom-FFI, or plugins to it that are not included with the
+Sys-GetRandom-FFI distribution) are not covered by this policy.
 
-## Which Versions of this Software are Supported?
+## Supported Versions of Sys-GetRandom-FFI
 
-The maintainer(s) will only commit to releasing security fixes for the
-latest version of Sys-GetRandom-FFI.
-
-Note that the Sys-GetRandom-FFI project only supports major
-versions of Perl released in the past ten (10) years, even though
-Sys-GetRandom-FFI will run on older versions of Perl.  If a
-security fix requires us to increase the minimum version of Perl that
-is supported, then we may do that.
+The maintainer(s) will only commit to releasing security fixes for
+the latest version of Sys-GetRandom-FFI.
 
 # Installation and Usage Issues
 
-Please see the module documentation for more information.
+The distribution metadata specifies minimum versions of
+prerequisites that are required for Sys-GetRandom-FFI to work.  However, some
+of these prerequisites may have security vulnerabilities, and you
+should ensure that you are using up-to-date versions of these
+prerequisites.
+
+Where security vulnerabilities are known, the metadata may indicate
+newer versions as recommended.
+
+## Usage
+
+Please see the software documentation for further information.
