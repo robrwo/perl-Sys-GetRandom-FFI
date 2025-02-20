@@ -2,7 +2,7 @@ Release history for {{ $dist->name }}:
 
 {{$NEXT}}
   [Documentation]
-  - Updated SEE ALSO to remove Random::Simple (not intended for crypto) and add Crypt::SysRandom.
+  - Updated SEE ALSO to remove Random::Simple (not intended for crypto) and add Crypt::SysRandom::XS.
 
   - Updated copyright year.
 

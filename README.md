@@ -64,7 +64,7 @@ This will exit with `undef` when there are no random bytes available.
     This is a pure-Perl module that reads data from `/dev/urandom`. It also uses [Win32::API](https://metacpan.org/pod/Win32%3A%3AAPI) to read random bytes on
     Windows.
 
-- [Crypt::SysRandom](https://metacpan.org/pod/Crypt%3A%3ASysRandom)
+- [Crypt::SysRandom::XS](https://metacpan.org/pod/Crypt%3A%3ASysRandom%3A%3AXS)
 
     This is another interface that will call [getrandom(2)](http://man.he.net/man2/getrandom) or [getentropy(2)](http://man.he.net/man2/getentropy) or the Windows equivalent.
 

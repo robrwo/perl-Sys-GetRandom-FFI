@@ -91,7 +91,7 @@ This is a pure-Perl module that makes syscalls to L<getrandom(2)>, but falls bac
 This is a pure-Perl module that reads data from F</dev/urandom>. It also uses L<Win32::API> to read random bytes on
 Windows.
 
-=item L<Crypt::SysRandom>
+=item L<Crypt::SysRandom::XS>
 
 This is another interface that will call L<getrandom(2)> or L<getentropy(2)> or the Windows equivalent.
 
